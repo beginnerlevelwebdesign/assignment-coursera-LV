@@ -1,0 +1,59 @@
+body {
+    background-color: #454e0c;
+}
+
+main {
+    color: #FFF;
+}
+
+a {
+    color: #ffff00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+.bg-light a {
+    color: #ff0000;
+}
+
+.bg-light a:hover {
+    color: #ff0000;
+}
+
+.title-heading {
+    text-align: center;
+}
+
+.img-thumbnail-hover .img-thumbnail:hover {
+    border-color: #000;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+.carousel-max-height .carousel-item img {
+    max-height: 400px;
+}
+
+.carousel-max-height .carousel-item {
+    text-align: center;
+}
+
+.link-white {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.link-white:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .title-heading {
+        text-align: left;
+    }
+}
